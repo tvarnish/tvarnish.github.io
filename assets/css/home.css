@@ -47,6 +47,20 @@ p {
     color: rgba(0, 0, 0, 0.9);
 }
 
+p span a {
+    text-decoration: none;
+    font-style: italic;
+    color: #006EAF;
+}
+
+p span a:hover {
+    border-bottom: #006EAF 1px solid;
+}
+
+p span a:visited {
+    color: #006EAF;
+}
+
 h1 {
     font-family: "Roboto";
     font-weight: 400;
@@ -119,6 +133,10 @@ h1 b {
 
     .about-me {
         margin: 0;
+    }
+
+    .about-me p {
+        text-align: center;
     }
 
     .about-me h1, p {
