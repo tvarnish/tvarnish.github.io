@@ -1,0 +1,258 @@
+@import url("./reset.css");
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* CONTAINERS AND MAIN OBJECTS */
+.home-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.profile-picture {
+    width: 15rem;
+    height: 15rem;
+}
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.about-me {
+    max-width: 500px;
+    margin-left: 3rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* TYPOGRAPHY */
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 1.5rem;
+
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h1 b {
+    font-weight: 800;
+}
+
+/* SOCIAL LINKS */
+.social-links {
+    font-size: 1.75rem;
+}
+
+.social-links a {
+    color: #666;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.social-links a:visited {
+    color: #666;
+}
+
+.social-links a:hover {
+    color: #666;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F3;
+}
+
+.fa-github:hover {
+    color: #000;
+}
+
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+.fa-envelope:hover {
+    color: #003E74;
+}
+
+#contact {
+    display: inline-block;
+    height: 1rem;
+    width: 10rem;
+    margin: auto;
+    padding-bottom: 0.05rem;
+    padding-left: 0.2rem;
+}
+
+#mail:hover {
+    cursor: pointer;
+}
+
+/* MEDIA: SMALL SCREENS */
+@media (max-width: 900px) {
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me {
+        margin: 0;
+    }
+
+    .about-me h1, p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile-picture {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2.5rem;
+    }
+
+    .profile-picture img {
+        width: 30%;
+        height: auto;
+    }
+
+    .social-links {
+        margin: auto;
+    }
+
+    #contact {
+        padding-left: 0;
+        margin-top: 1rem;
+        display: block;
+    }
+}
+
+/* MEDIA: MOBILE (VERTICAL) */
+@media (max-width: 550px) {
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    .about-me {
+        margin: 0;
+        text-align: center;
+    }
+
+    .about-me h1, p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-me h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .about-me span {
+        display: block;
+        text-align: center;
+    }
+
+    .about-me p span {
+        line-height: 1.3rem;
+    }
+
+    .profile-picture {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2.5rem;
+
+        width: 50%;
+        height: auto;
+    }
+
+    .social-links {
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+
+    #contact {
+        padding-left: 0;
+        margin-top: 1rem;
+        display: block;
+    }
+}
+
+/* MEDIA: MOBILE (HORIZONTAL) */
+@media (max-height: 500px) {
+    .home-container {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .profile-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
+    
+    .profile-picture {
+        margin: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 8rem;
+        height: 8rem;;
+    }
+
+    .about-me {
+        max-width: 500px;
+        margin-left: 3rem;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .about-me h1, p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .about-me h1 {
+        font-size: 1.7rem;
+    }
+
+    .about-me p {
+        font-size: 1rem;
+    }
+
+    .social-links {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+}

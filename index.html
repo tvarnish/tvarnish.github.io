@@ -1,0 +1,74 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+    
+    <link rel="stylesheet" href="assets/css/home.css" type="text/css">
+</head>
+
+<script>
+    var contact_visible = false;
+    document.getElementById('contact').ondragstart = function() { return false; };
+</script>
+
+<body id="body">
+    
+    <div class="home-container">
+        <div class="profile-container">
+            <img class="profile-picture" src="assets/profile.png"/>
+
+            <div class="about-me">
+                
+                <h1>Hi there, <span>I'm <b>Thomas Varnish</b></span></h1>
+                <p>
+                    <span>Aspiring physicist.</span>
+                    <span>Space enthusiast.</span>
+                    <span>Occasional maker of things.</span>
+                </p>
+
+                <div class="social-links">
+                    {% if site.author.youtube %}
+                    <a href="https://www.youtube.com/c/{{ site.author.youtube }}"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    {% endif %}
+                
+                    {% if site.author.twitter %}
+                    <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    {% endif %}
+                
+                    {% if site.author.github %}
+                    <a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i></a>
+                    {% endif %}
+                
+                    {% if site.author.linkedin %}
+                    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    {% endif %}
+                
+                    {% if site.author.email %}
+                    <a id="mail" onclick="show_contact()"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    {% endif %}
+
+                    <img id="contact" src="assets/contact.jpg" style="visibility: hidden;"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    function show_contact() {
+        element = document.getElementById("contact");
+        if (contact_visible == false) {
+            element.style.visibility = "visible";
+            contact_visible = true;
+        } else {
+            element.style.visibility = "hidden";
+            contact_visible = false;
+        }
+    }
+</script>
+
+</html>
