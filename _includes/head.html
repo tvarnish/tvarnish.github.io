@@ -1,6 +1,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if page.title %}{{ page.title }} | {{site.title}}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ site.description }}">
+<meta name="author" content="Thomas Varnish">
+
+<!-- SEO (OpenGraph and Twitter Cards) -->
+<meta name="keywords" content="thomas, varnish, personal, website, physics, physicist, astrophysics, astrophysicist, astronomy, student, imperial, college, space, maker">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{site.title}}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:type" content="{% if page.ogtype %}{{ page.ogtype }}{% else %}website{% endif %}">
+<meta property="og:url" content="{% if page.ogurl %}{{ page.ogurl }}{% else %}https://thomasvarnish.co.uk/{% endif %}">
+<meta property="og:image" content="{% if page.ogimage %}{{ page.ogimage }}{% else %}https://thomasvarnish.co.uk/assets/profile.png{% endif %}">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@{{ site.author.twitter }}">
 
 <!-- Favicon -->
 <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico"/>
