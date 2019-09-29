@@ -34,6 +34,38 @@ html, body {
     justify-content: center;
 }
 
+.page-links {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: left;
+    color: #666;
+
+    margin-top: 1.5rem;
+    text-transform: capitalize;
+}
+
+.page-links a {
+    text-decoration: none;
+    color: #666;
+}
+
+.page-links span a {
+    margin-right: 2rem;
+}
+
+.page-links a:visited {
+    color: #666;
+}
+
+.page-links a:hover {
+    border-bottom: #666 1px solid;
+}
+
+.page-links span:last-of-type a {
+    margin-right: 0;
+}
+
 /* TYPOGRAPHY */
 p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -164,6 +196,10 @@ h1 b {
         margin-top: 1rem;
         display: block;
     }
+
+    .page-links {
+        margin: auto;
+    }
 }
 
 /* MEDIA: MOBILE (VERTICAL) */
@@ -171,9 +207,11 @@ h1 b {
     .profile-container {
         display: flex;
         flex-direction: column;
+        flex-wrap: nowrap;
         max-width: 300px;
+        padding-top: 2rem;
     }
-
+    
     .about-me {
         margin: 0;
         text-align: center;
@@ -209,13 +247,30 @@ h1 b {
 
     .social-links {
         margin: auto;
-        margin-top: 1.5rem;
+        margin-top: 1.5rem;     
     }
 
     #contact {
         padding-left: 0;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         display: block;
+    }
+
+    .page-links {
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .page-links span a {
+        margin: 0;
+    }
+
+    .page-links span {
+        margin-bottom: 1rem;
+    }
+
+    .page-links span:last-of-type a {
+        padding-bottom: 4rem;
     }
 }
 
@@ -292,5 +347,10 @@ h1 b {
     #contact {
         display: inline;
         margin-left: 0.8rem;
+    }
+
+    .page-links {
+        margin: 0;
+        margin-top: 1.5rem;
     }
 }
