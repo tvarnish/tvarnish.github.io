@@ -17,6 +17,20 @@
         var srev = sarr.reverse();
         return srev.join("");
     }
+
+    function form_contact() {
+        var user = "{{ site.author.email.user }}";
+        var domain = "{{ site.author.email.domain }}";
+        var tld = "{{ site.author.email.tld }}";
+        var full = tld + domain + String.fromCharCode(64) + user;
+        return rev(full);
+    }
+
+    function set_alt_attributes(object) {
+        var contact_str = form_contact();
+        object.setAttribute("alt", contact_str);
+        object.setAttribute("title", contact_str);
+    }
 </script>
 
 <body id="body">
@@ -58,6 +72,13 @@
 
                     <img id="contact" src="assets/contact.jpg" onload="set_alt_attributes(this);" style="visibility: hidden;"/>
                 </div>
+
+                <div class="page-links-home">
+                    {% for page in site.sitepages %}
+                        <span><a href="{{ site.url }}/{{ page.url }}">{{ page.label }}</a></span>
+                    {% endfor %}
+                </div>
+
             </div>
         </div>
     </div>
@@ -66,20 +87,6 @@
 
 <script>
     document.getElementById('contact').ondragstart = function() { return false; };
-
-    function form_contact() {
-        var user = "{{ site.author.email.user }}";
-        var domain = "{{ site.author.email.domain }}";
-        var tld = "{{ site.author.email.tld }}";
-        var full = tld + domain + String.fromCharCode(64) + user;
-        return rev(full);
-    }
-
-    function set_alt_attributes(object) {
-        var contact_str = form_contact();
-        object.setAttribute("alt", contact_str);
-        object.setAttribute("title", contact_str);
-    }
 
     function show_contact() {
         element = document.getElementById("contact");

@@ -15,8 +15,16 @@ author:
     domain: lairepmi
     tld: ku.ca.
 
+sitepages:
+  - url: about/
+    label: About
+  - url: blog/
+    label: Blog
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+kramdown:
+  footnote_backlink: "&#x2934;&#xFE0E;&nbsp;&nbsp;"
