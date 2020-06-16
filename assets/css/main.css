@@ -1,0 +1,401 @@
+@import url("./reset.css");
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto";
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+#page-title {
+    margin-top: 0rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.8rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    padding-top: 0.5rem;
+}
+
+h6 {
+    color: #666;
+}
+
+.container {
+    /* background-color: aqua; */
+    
+    width: 65%;
+    margin: auto;
+    min-width: 300px;
+    /* display: flex;
+    flex-wrap: wrap;
+
+    padding-top: 2.5rem;
+    padding-bottom: 6rem; */
+}
+
+.content-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 6rem;
+}
+
+nav {
+    width: 100%;
+    text-align: right;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+    margin-left: -15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#site-link-mobile {
+    visibility: hidden;
+}
+
+@media (max-width: 1200px) {
+    nav {
+        margin: auto;
+        margin-bottom: 1.5rem;
+        margin-top: 2.5rem;
+    }
+}
+
+nav a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+nav a:visited {
+    color: #666;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #666;
+}
+
+#site-link {
+    width: 100%;
+    color: #666;
+    margin-bottom: 2rem;
+    margin-top: 0.35rem;
+}
+
+#site-link a {
+    text-decoration: none;
+    color: #666;
+}
+
+#site-link a:visited {
+    color: #666;
+}
+
+#site-link a:hover {
+    border-bottom: 1px solid #666;
+}
+
+.sidebar {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-left: -15%;
+}
+
+.mobile-footer {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .sidebar {
+        margin-left: -1rem;
+    }
+}
+
+.sidebar img {
+    margin-bottom: 2rem;
+}
+
+.sidebar p {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#page-links {
+    margin-bottom: 2rem;
+}
+
+#page-links span {
+    margin-bottom: 0.75rem;
+}
+
+#page-links a {
+    text-decoration: none;
+    color: #666;
+}
+
+#page-links a:visited {
+    color: #666;
+}
+
+#page-links a:hover {
+    border-bottom: 1px solid #666;
+}
+
+.sidebar p span b {
+    font-weight: 700;
+}
+
+#main-tagline {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.content {
+    /* background-color: green; */
+    width: 70%;
+    min-width: 300px;
+}
+
+.content p {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.content p a {
+    color: #E67E22;
+    /* TODO: Create a more consistent colour scheme! */
+}
+
+li {
+    line-height: 1.4rem;
+}
+
+strong {
+    font-weight: 700;
+}
+
+ul {
+    margin-bottom: 1rem;
+}
+
+.profile-picture {
+    width: 45%;
+    height: auto;
+    margin: auto;
+}
+
+/* SOCIAL LINKS */
+.social-links {
+    font-size: 1.75rem;
+    margin: auto;
+}
+
+.social-links a {
+    color: #666;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.social-links a:visited {
+    color: #666;
+}
+
+.social-links a:hover {
+    color: #666;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F3;
+}
+
+.fa-github:hover {
+    color: #000;
+}
+
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+.fa-envelope:hover {
+    color: #003E74;
+}
+
+/* SMALL SCREENS */
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* MOBILE VERTICAL */
+@media (max-width: 650px) {
+    #site-link-mobile {
+        visibility: visible;
+    }
+    
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        padding-bottom: 2rem;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-top: 2rem;
+        padding-bottom: 4rem;
+        display: none;
+    }
+
+    .sidebar p {
+        text-align: center;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    nav {
+        margin-top: 1.5rem;
+    }
+
+    .mobile-footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: auto;
+        justify-content: space-evenly;
+        padding-bottom: 3rem;
+        margin-left: 1.5em; /* Temporary centering fix! */
+    }
+
+    #footer-profile-picture {
+        width: 6rem;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer-text-container {
+        margin-top: 0.6rem;
+        margin-left: 1rem;
+    }
+
+    .footer-text-container #main-tagline {
+        font-weight: 800;
+    }
+
+    .footer-text-container .social-links {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-height: 400px) {
+    .content {
+        margin-bottom: 5rem;
+    }
+}
+
+/* BLOG POST LIST */
+.blog-link-title {
+    display: block;
+}
+
+.blog-link-title h2 {
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.blog-link-title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.blog-link-title a:visited {
+    color: #000;
+}
+
+.blog-link-title a:hover {
+    color: #E67E22;
+}
+
+.blog-link-desc {
+    display: block;
+    color: #666;
+}
+
+.blog-link-date {
+    display: block;
+    color: #666;
+}
+
+.blog-link-tag {
+    display: inline-block;
+    font-weight: 700;
+    color: #4834d4;
+    background-color: #dff9fb;
+    padding: .15em .3em;
+    font-size: 90%;
+    border-radius: 3px;
+    
+    margin-right: 0.5em;
+    margin-top: 0.5em !important;
+}
+
+.blog-post-list li {
+    margin-bottom: 2em;
+}
+
+.blog-post-list {
+    list-style-type: none;
+}
+
+em {
+    font-style: italic;
+}

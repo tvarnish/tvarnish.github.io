@@ -1,0 +1,367 @@
+@import url("./highlighter.css");
+
+/* VIDEOS */
+
+.youtube { 
+    position: relative;
+    /* padding-bottom: 56.25%; */
+    padding-bottom: 45%;
+    height: 0;
+    overflow: hidden;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.youtube iframe, .youtube object, .youtube embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 450px) {
+    .youtube {
+        max-width: 100%;
+        padding-bottom: 56.25%;
+    }
+}
+
+/* QUOTES */
+
+blockquote {
+    width: 60%;
+    margin: auto;
+    border-left: #b2bec3 5px solid;
+    border-radius: 5px;
+    padding-left: 1rem;
+    background-color: #F4F4F4;
+}
+
+blockquote li {
+    color: #888888;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: right;
+    font-style: italic;
+    padding-right: 1rem;
+    padding-bottom: 0.75rem;
+}
+
+blockquote li::before {
+    content: "-";
+    margin-right: 0.7rem;
+}
+
+blockquote p {
+    color: #636e72;
+    padding-top: 0.75rem;
+    margin-bottom: 10px;
+    padding-right: 4rem;
+    line-height: 120%;
+    text-align: left;
+}
+
+blockquote {
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 48rem){
+    blockquote {
+        width: 90%;
+    }
+}
+
+/* EQUATIONS */
+
+.inline-equation {
+    font-size: 0.9em;
+}
+
+.equation {
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* FOOTNOTES */
+.content p a {
+    font-weight: 700;
+    color: #4834d4;
+    background-color: #dff9fb;
+    margin-top: 1rem;
+    padding: .15em .3em;
+    font-size: 90%;
+    border-radius: 3px;
+}
+
+.content p a:hover {
+    color: #dff9fb;
+    background-color: #4834d4;
+}
+
+.footnotes p a {
+    color: green;
+    background-color: #DFF4E3;
+
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.footnotes p a:hover {
+    color: #DFF4E3;
+    background-color: green;
+}
+
+a.footnote::before {
+    content: "[";
+}
+
+a.footnote::after {
+    content: "]";
+}
+
+a.footnote {
+    font-weight: 700;
+    color: #E67E22;
+    color: blue;
+    color: #4834d4;
+    color: green;
+    margin: 0px;
+    background-color: #F4F4F4;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    vertical-align: baseline;
+
+    margin-top: 1rem;
+    padding: .15em .3em;
+    font-size: 90%;
+
+    background-color: #F4F4F4;
+    background-color: lightcyan;
+    background-color: #dff9fb;
+    background-color: #DFF4E3;
+    border-radius: 3px;
+}
+
+a.footnote:hover {
+    color: #DFF4E3;
+    background-color: green;
+}
+
+@media (max-width: 48rem){
+    a.footnote {
+        margin: 5px;
+    }
+}
+
+.footnotes ol {
+    font-size: 14px !important;
+    margin: -10px 20px;
+}
+
+.footnotes {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+@media (max-width: 48rem) {
+    .footnotes {
+        margin-top: 3rem;
+    }
+}
+
+.footnotes:before {
+    display: inline-block;
+    content: "Footnotes";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+}
+
+.footnotes p {
+    font-size: 14px !important;
+    text-align: left;
+}
+
+.footnotes ol {
+    list-style-type: decimal;
+    margin-left: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px !important;
+}
+
+.footnotes p {
+    margin: 10px;
+    padding-left: 0.5rem;
+}
+
+@media (max-width: 48rem){
+    .footnotes ol {
+        font-size: 15px !important;
+    }
+
+    .footnotes p {
+        font-size: 15px !important;
+    }
+
+    .footnotes p {
+        margin: 0px;
+    }
+}
+
+.footnotes li:target {
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+/* -----------------------
+    CODE SNIPPETS
+   ----------------------- */
+
+   code, pre {
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+    width: 85%;
+    margin: auto;
+    text-align: left;
+}
+
+code {
+    /* Inline code snippets */
+    margin-top: 1rem;
+    padding: .25em .5em;
+    font-size: 85%;
+
+    background-color: #F4F4F4;
+    border-radius: 3px;
+
+    color: #E67E22;
+
+    font-weight: 600;
+}
+
+pre {
+    /* Code boxes */
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    font-size: .8rem;
+    line-height: 1.4;
+    white-space: pre;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+@media (max-width: 48rem) {
+    .highlight:after {
+        content: "(You might have to scroll horizontally.)";
+        background-color: transparent;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        color: gray;
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
+
+.highlight {
+    /* Enables momentum scrolling on mobile. */
+    -webkit-overflow-scrolling: touch;
+}
+
+pre code {
+    /* Code text within code boxes */
+    padding: 0;
+    font-size: 110%;
+    color: inherit;
+    background-color: transparent;
+    font-weight: 400;
+}
+
+@media (max-width: 48rem){
+    /* Mobile code boxes */
+    pre {
+        margin: auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
+.highlight {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.highlight pre {
+    margin-bottom: 0;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* DEALING WITH LONG WORDS */
+p {
+    /* Dealing with long words... */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+p strong {
+    font-weight: 700;
+}
+
+p em {
+    font-style: italic;
+}
+
+/* HEADERS */
+@media (max-width: 650px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+}
+
+#post-date {
+    margin-bottom: 0.5em;
+    color: #666;
+}
+
+#page-title {
+    margin-bottom: 0.5em;
+}

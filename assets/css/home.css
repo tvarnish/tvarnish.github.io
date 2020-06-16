@@ -34,7 +34,7 @@ html, body {
     justify-content: center;
 }
 
-.page-links {
+.page-links-home {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 17px;
@@ -45,24 +45,24 @@ html, body {
     text-transform: capitalize;
 }
 
-.page-links a {
+.page-links-home a {
     text-decoration: none;
     color: #666;
 }
 
-.page-links span a {
+.page-links-home span a {
     margin-right: 2rem;
 }
 
-.page-links a:visited {
+.page-links-home a:visited {
     color: #666;
 }
 
-.page-links a:hover {
+.page-links-home a:hover {
     border-bottom: #666 1px solid;
 }
 
-.page-links span:last-of-type a {
+.page-links-home span:last-of-type a {
     margin-right: 0;
 }
 
@@ -193,11 +193,12 @@ h1 b {
 
     #contact {
         padding-left: 0;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
         display: block;
     }
 
-    .page-links {
+    .page-links-home {
         margin: auto;
     }
 }
@@ -256,22 +257,23 @@ h1 b {
         display: block;
     }
 
-    .page-links {
+    .page-links-home {
         margin: auto;
         margin-top: 1rem;
+        padding-bottom: 4rem;
     }
 
-    .page-links span a {
+    .page-links-home span a {
         margin: 0;
     }
 
-    .page-links span {
+    .page-links-home span {
         margin-bottom: 1rem;
     }
 
-    .page-links span:last-of-type a {
+    /* .page-links-home span:last-of-type a {
         padding-bottom: 4rem;
-    }
+    } */
 }
 
 /* MEDIA: MOBILE (HORIZONTAL) */
@@ -349,7 +351,7 @@ h1 b {
         margin-left: 0.8rem;
     }
 
-    .page-links {
+    .page-links-home {
         margin: 0;
         margin-top: 1.5rem;
     }

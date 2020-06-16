@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css" type="text/css">
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/post.css" type="text/css">
+    </head>
+<body>
+    <div class="container">
+        <nav>
+            <span id="site-link-mobile"><a href="{{ site.url }}">Thomas Varnish</a></span>
+            <span><a href="{{ site.url }}/blog/"><i class="fas fa-angle-left"></i> BLOG</a></span>
+        </nav>
+
+        <div class="content-container">
+            <div class="sidebar">
+                <img class="profile-picture" src="{{ site.url }}/assets/profile.png" alt="Profile picture"/>
+                <p>
+                    <span id="main-tagline"><b>Thomas Varnish</b></span>
+                    <span id="site-link"><a href="{{ site.url }}">thomasvarnish.co.uk</a></span>
+                </p>
+                <p id="page-links">
+                    {% for page in site.sitepages %}
+                        <span><a href="{{ site.url }}/{{ page.url }}">{{ page.label }}</a></span>
+                    {% endfor %}
+                </p>
+                <div class="social-links">
+                    {% if site.author.youtube %}
+                    <a href="https://www.youtube.com/c/{{ site.author.youtube }}" alt="YouTube" title="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    {% endif %}
+                
+                    {% if site.author.twitter %}
+                    <a href="https://twitter.com/{{ site.author.twitter }}" alt="Twitter" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    {% endif %}
+                
+                    {% if site.author.github %}
+                    <a href="https://github.com/{{ site.author.github }}" alt="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                    {% endif %}
+                
+                    {% if site.author.linkedin %}
+                    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" alt="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="content">
+                <p id="post-date"> {{ page.date | date_to_long_string }} </p>
+                <h1 id="page-title"> {{ page.title }} </h1>
+
+                {{ content }}
+            </div>
+        </div>
+
+        <div class="mobile-footer">
+            <div class="footer-profile-container">
+                <img id="footer-profile-picture" src="{{ site.url }}/assets/profile.png" alt="Profile picture"/>
+            </div>
+            <div class="footer-text-container">
+                <p>
+                    <span id="main-tagline"><b>Thomas Varnish</b></span>
+                    <span id="site-link"><a href="{{ site.url }}">thomasvarnish.co.uk</a></span>
+                </p>
+                <div class="social-links">
+                    {% if site.author.youtube %}
+                    <a href="https://www.youtube.com/c/{{ site.author.youtube }}" alt="YouTube" title="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    {% endif %}
+                
+                    {% if site.author.twitter %}
+                    <a href="https://twitter.com/{{ site.author.twitter }}" alt="Twitter" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    {% endif %}
+                
+                    {% if site.author.github %}
+                    <a href="https://github.com/{{ site.author.github }}" alt="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                    {% endif %}
+                
+                    {% if site.author.linkedin %}
+                    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" alt="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

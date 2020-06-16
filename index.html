@@ -73,13 +73,11 @@
                     <img id="contact" src="assets/contact.jpg" onload="set_alt_attributes(this);" style="visibility: hidden;"/>
                 </div>
 
-                <!--
-                <div class="page-links">
-                    <span><a href="/about">About Me</a></span>
-                    <span><a href="/resume">R&eacute;sum&eacute;</a></span>
-                    <span><a href="/blog">Blog</a></span>
+                <div class="page-links-home">
+                    {% for page in site.sitepages %}
+                        <span><a href="{{ site.url }}/{{ page.url }}">{{ page.label }}</a></span>
+                    {% endfor %}
                 </div>
-                -->
 
             </div>
         </div>
