@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         {% include head.html %}
-        <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css" type="text/css">
+        <link rel="stylesheet" href="/assets/css/main.css" type="text/css">
     </head>
 <body>
     <div class="container">
@@ -13,14 +13,14 @@
 
         <div class="content-container">
             <div class="sidebar">
-                <img class="profile-picture" src="{{ site.url }}/assets/profile.png" alt="Profile picture"/>
+                <img class="profile-picture" src="/assets/profile.png" alt="Profile picture"/>
                 <p>
                     <span id="main-tagline"><b>Thomas Varnish</b></span>
                     <span id="site-link"><a href="{{ site.url }}">thomasvarnish.co.uk</a></span>
                 </p>
                 <p id="page-links">
                     {% for page in site.sitepages %}
-                        <span><a href="{{ site.url }}/{{ page.url }}">{{ page.label }}</a></span>
+                        <span><a href="/{{ page.url }}">{{ page.label }}</a></span>
                     {% endfor %}
                 </p>
                 <div class="social-links">
@@ -51,7 +51,7 @@
 
         <div class="mobile-footer">
             <div class="footer-profile-container">
-                <img id="footer-profile-picture" src="{{ site.url }}/assets/profile.png" alt="Profile picture"/>
+                <img id="footer-profile-picture" src="/assets/profile.png" alt="Profile picture"/>
             </div>
             <div class="footer-text-container">
                 <p>
