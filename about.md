@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+enable_maths: false
 ---
 
 Hi! I'm Thomas, an undergraduate physics student studying at [Imperial College London](https://imperial.ac.uk/), interested in astrophysics and instrumentation. Currently, I'm finishing the third year of my degree and will be starting my MSci research project soon. After this, *who knows!* But, I'm aiming to study for a PhD once I've graduated. Stay tuned! 
