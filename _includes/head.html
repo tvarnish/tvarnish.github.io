@@ -52,5 +52,6 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-170028119-1');
+  // Anonymise the user's IP address! (Strip final 3 digits --> xxx.xxx.xxx.0)
+  gtag('config', 'UA-170028119-1', {'anonymize_ip': true});
 </script>
