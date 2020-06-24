@@ -45,13 +45,15 @@
 </script>
 {% endif %}
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170028119-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+{% if jekyll.environment == 'production' %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170028119-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  // Anonymise the user's IP address! (Strip final 3 digits --> xxx.xxx.xxx.0)
-  gtag('config', 'UA-170028119-1', {'anonymize_ip': true});
-</script>
+    // Anonymise the user's IP address! (Strip final 3 digits --> xxx.xxx.xxx.0)
+    gtag('config', 'UA-170028119-1', {'anonymize_ip': true});
+  </script>
+{% endif %}
