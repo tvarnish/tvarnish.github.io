@@ -18,8 +18,8 @@ author:
 sitepages:
   - url: about/
     label: About
-  - url: blog/
-    label: Blog
+  # - url: blog/
+  #   label: Blog
 
 # Build settings
 markdown: kramdown
