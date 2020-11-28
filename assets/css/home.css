@@ -393,13 +393,17 @@ h1 b {
     color: #666;
     text-decoration: none;
 
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    /* font-weight: 400; */
+    /* font-size: 17px; */
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
     text-align: left;
 
-    font-size: 17px;
-    line-height: 20px;
+    /* line-height: 20px; */
+    line-height: 24px;
 }
 
 .not-found div {
@@ -417,6 +421,14 @@ h1 b {
 #not-found-heading {
     color: #666;
     margin-bottom: 0.5em;
+}
+
+@media (max-width: 550px) {
+    #not-found-heading {
+        margin-bottom: 2em;
+        font-size: 3em;
+        font-weight: 800;
+    }
 }
 
 .not-found p:last-of-type {
