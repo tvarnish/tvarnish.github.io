@@ -91,16 +91,20 @@ p {
 
 p span a {
     text-decoration: none;
-    font-style: italic;
-    color: #006EAF;
+    /* font-style: italic; */
+    /* color: #006EAF; */
+    color: #E67E22;
+    font-weight: 800;
 }
 
 p span a:hover {
-    border-bottom: #006EAF 1px solid;
+    /* border-bottom: #006EAF 1px solid; */
+    border-bottom: #E67E22 1px solid;
 }
 
 p span a:visited {
-    color: #006EAF;
+    /* color: #006EAF; */
+    color: #E67E22;
 }
 
 h1 {
