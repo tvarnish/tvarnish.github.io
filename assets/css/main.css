@@ -82,6 +82,7 @@ nav {
     margin-left: -7%;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1em;
 }
 
 #site-link-mobile {
@@ -306,6 +307,9 @@ ul {
 
     nav {
         margin-top: 1.5rem;
+
+        /* Line below nav for mobile */
+        border-bottom: #CCC 1px solid;
     }
 
     .mobile-footer {
