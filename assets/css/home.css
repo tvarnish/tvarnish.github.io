@@ -35,11 +35,15 @@ html, body {
 }
 
 .page-links-home {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    /* font-weight: 400; */
+    /* font-size: 17px; */
     text-align: left;
-    color: #666;
+    /* color: #666; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
 
     margin-top: 1.5rem;
     text-transform: capitalize;
@@ -68,15 +72,21 @@ html, body {
 
 /* TYPOGRAPHY */
 p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    /* font-weight: 400; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    /* font-size: 17px; */
     text-align: left;
     margin-bottom: 1.5rem;
 
-    font-size: 17px;
-    line-height: 20px;
-    color: rgba(0, 0, 0, 0.9);
+    /* font-size: 17px; */
+    /* line-height: 20px; */
+    /* color: rgba(0, 0, 0, 0.9); */
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+
 }
 
 p span a {

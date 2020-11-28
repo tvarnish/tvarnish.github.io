@@ -6,16 +6,25 @@ html, body {
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    /* font-weight: 400; */
+    /* font-size: 17px; */
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    
     text-align: left;
-    color: rgba(0, 0, 0, 0.9);
+    
+    /* color: rgba(0, 0, 0, 0.9); */
+    /* color: #494e52; */
+    color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto";
     font-weight: 800;
+    color: rgba(0, 0, 0, 0.9);
 }
 
 h1 {
@@ -112,6 +121,18 @@ nav a:hover {
     border-bottom: 1px solid #666;
 }
 
+#site-link-mobile a {
+    color: #999;
+}
+
+#site-link-mobile a:visited {
+    color: #999;
+}
+
+#site-link-mobile a:hover {
+    border-bottom: 1px solid #999;
+}
+
 #site-link {
     width: 100%;
     color: #666;
@@ -203,11 +224,13 @@ nav a:hover {
 
 .content p {
     margin-bottom: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 }
 
 .content p a {
     color: #E67E22;
+    font-weight: 800;
+    text-decoration: none;
     /* TODO: Create a more consistent colour scheme! */
 }
 
