@@ -153,6 +153,21 @@ nav a:hover {
     border-bottom: 1px solid #666;
 }
 
+/* MOBILE HORIZONTAL (SIDEBAR) */
+@media (max-width: 750px) {
+    #site-link a {
+        font-size: 0.8em;
+    }
+
+    #main-tagline b {
+        font-size: 0.9em;
+    }
+
+    #page-links a {
+        font-size: 0.9em;
+    }
+}
+
 .sidebar {
     width: 30%;
     height: 100%;
