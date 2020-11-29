@@ -1,0 +1,34 @@
+research:
+  - where: Astrophysics Group, Imperial College London
+    title: MSci Project
+    supervisors: Dr David Clements and Dr Chris Pearson (RAL)
+    when: 2020 - 2021
+
+  - where: MAGPIE Lab, Imperial College London
+    title: UROP Research Student
+    supervisors: Prof. Sergey Lebedev, Dr Jack Hare, and Dr Lee Suttle
+    when: 2020
+
+  - where: Optics and Photonics, Imperial College London
+    title: UROP Research Student
+    supervisors: Dr Kenny Weir and Prof. Martin McCall
+    when: 2019
+
+  - where: Physics Department, Warwick School
+    title: SIA Experimental Research Project
+    supervisors:
+    when: 2017
+
+  - where: Circuits and Systems Group, Imperial College London
+    title: Work Experience Student
+    supervisors: Dr Shane Fleming
+    when: 2015
+
+education:
+  - name: Imperial College London
+    what: MSci Physics
+    when: 2017 - 2021
+
+  - name: Warwick School
+    what: A-Level and GCSE
+    when: 2010 - 2017

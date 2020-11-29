@@ -20,6 +20,8 @@ sitepages:
     label: About
   # - url: blog/
   #   label: Blog
+  - url: cv/
+    label: CV
 
 # Build settings
 markdown: kramdown

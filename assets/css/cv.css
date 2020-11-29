@@ -1,0 +1,42 @@
+/* List Styling */
+.list {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.list li {
+    margin-bottom: 0.5em;
+}
+
+.list li b {
+    font-weight: 800;
+}
+
+.cv-item {
+    margin-bottom: 1em;
+    /* margin-left: 1em; */
+    line-height: 1.2em;
+}
+
+.cv-item-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cv-item-header b {
+    font-weight: 800;
+}
+
+/* MOBILE (Vertical) */
+@media (max-width: 650px) {
+    .cv-item {
+        margin-left: 0;
+    }
+}
+
+#supervisors {
+    margin-top: 0.25em;
+    font-size: 15px;
+    color: #666;
+}
