@@ -310,7 +310,11 @@ ul {
         flex-direction: column;
         flex-direction: column-reverse;
         flex-wrap: nowrap;
+
+        /* Add border to bottom of page */
+        border-bottom: #CCC 1px solid;
         padding-bottom: 2rem;
+        margin-bottom: 2rem;
     }
 
     .sidebar {
