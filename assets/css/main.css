@@ -364,6 +364,10 @@ ul {
         margin-left: 1.5em; /* Temporary centering fix! */
     }
 
+    #site-link {
+        line-height: 1.2em;
+    }
+
     #footer-profile-picture {
         width: 6rem;
         height: auto;
