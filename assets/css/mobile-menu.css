@@ -67,6 +67,7 @@ mouse over it (hover) */
     background-color: #EEE;
     display: block;
     text-decoration: none;
+    color: black;
 }
 
 .mobile-site-link:visited {
