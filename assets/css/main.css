@@ -154,7 +154,7 @@ nav a:hover {
 }
 
 /* MOBILE HORIZONTAL (SIDEBAR) */
-@media (max-width: 750px) {
+@media (max-height: 450px) {
     #site-link a {
         font-size: 0.8em;
     }
