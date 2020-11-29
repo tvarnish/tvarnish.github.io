@@ -9,8 +9,16 @@
     <div class="container">
         <nav>
             <span id="site-link-mobile"><a href="/">Thomas Varnish</a></span>
-            <span><a href="/blog/"><i class="fas fa-angle-left"></i> BLOG</a></span>
+            <button type="button" id="collapsible-button">MENU <i class="fas fa-bars"></i></button>
         </nav>
+
+        <div id="collapsible-content">
+            <a href="/" class="mobile-site-link">Home</a>
+            <!-- <span><a href="/">Home</a></span> -->
+            {% for page in site.sitepages %}
+                <a href="/{{ page.url }}" class="mobile-site-link">{{ page.label }}</a>
+            {% endfor %}
+        </div>
 
         <div class="content-container">
             <div class="sidebar">
@@ -81,3 +89,5 @@
     </div>
 </body>
 </html>
+
+{% include collapsible.html %}

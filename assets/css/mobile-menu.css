@@ -1,0 +1,74 @@
+/* CSS for the mobile drop-down menu */
+
+/* 
+   Begin by setting everything to hidden. We don't want the menu to 
+   appear if we're not in (vertical) mobile mode 
+*/
+
+#collapsible-button {
+    visibility: hidden;
+}
+
+#collapsible-content {
+    visibility: hidden;
+    max-height: 0;
+    overflow: hidden;
+}
+
+/* MOBILE VERTICAL */
+@media (max-width: 650px) {
+    #collapsible-button {
+        visibility: visible;
+    }
+
+    #collapsible-content {
+        visibility: visible;
+    }
+}
+
+/* Style the button that is used to open and close the collapsible content */
+#collapsible-button {
+    background-color: #EEE;
+    color: #444;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px; /* top, right, bottom, left */
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on 
+(add the .active class with JS), and when you move the 
+mouse over it (hover) */
+.active, #collapsible-button:hover {
+    /* background-color: #CCC; */
+    background-color: #EEE;
+    /* Don't change, but keep this incase we want it later... */
+}
+
+/* Style the collapsible content. Note: hidden by default */
+#collapsible-content {
+    padding: 0px 18px;
+    margin-bottom: 0px;
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* Page link included inside the menu */
+.mobile-site-link {
+    font-size: 1.3em;
+    padding: 0.4em 0px;
+    margin: 0.6em 0px;
+    text-align: center;
+    font-weight: 800;
+    background-color: #EEE;
+    display: block;
+    text-decoration: none;
+}
+
+.mobile-site-link:visited {
+    color: black;
+}

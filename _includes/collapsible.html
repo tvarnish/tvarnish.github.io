@@ -1,0 +1,55 @@
+<script>
+  /* Control the drop-down menu on mobile */
+  /* Code built on-top of: https://www.w3schools.com/howto/howto_js_collapsible.asp */
+
+  /* This version ONLY works for a SINGLE collapsible element. 
+  If you add more, EVERYTHING will expand when ANY button 
+  (that's controlling collapsible items) is pressed. */
+
+  var coll = document.getElementById("collapsible-button");
+
+  function collapse(content) {
+    content.style.maxHeight = null;
+    content.style.marginBottom = "0px";
+    content.style.borderBottom = "0px #CCC solid";
+  }
+
+  function expand(content) {
+    content.style.maxHeight = content.scrollHeight + "px";
+    content.style.marginBottom = "1em";
+    content.style.borderBottom = "1px #CCC solid";
+  }
+
+  coll.addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = document.getElementById("collapsible-content");
+      if (content.style.maxHeight){
+        collapse(content);
+      } else {
+        expand(content);
+      }
+  });
+
+  /* If we rotate the phone, make sure to collapse the dropdown menu! */
+  window.onorientationchange = function() { 
+    var orientation = window.orientation; 
+    switch(orientation) { 
+        case 0:
+        case 90:
+        case -90:
+          var content = document.getElementById("collapsible-content");
+          collapse(content);
+          break;
+        default:
+          break; 
+    } 
+  };
+
+  /* Responsive: on window size change, make sure to collapse the menu! */
+  window.onresize = function() {
+    if (window.innerWidth >= 650) {
+      var content = document.getElementById("collapsible-content");
+      collapse(content);
+    }
+  };
+</script>
