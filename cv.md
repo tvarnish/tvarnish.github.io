@@ -6,7 +6,7 @@ enable_maths: false
 cv: true
 ---
 
-For a more details, please see my [LinkedIn](https://linkedin.com/in/{{ site.author.linkedin }}) profile.
+For more detailed descriptions, please see my [LinkedIn](https://linkedin.com/in/{{ site.author.linkedin }}) profile.
 
 ## Research Experience
 <ul class="list">
