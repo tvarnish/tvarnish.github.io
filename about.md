@@ -11,6 +11,6 @@ For my MSci research project, I'm using data from [ESA's Herschel Space Observat
 
 Outside of physics, I enjoy making things! Be sure to check out my [Twitter](https://twitter.com/{{ site.author.twitter }}) page for updates on this sort of thing.
 
-For a summary of my CV, visit [this page](/cv). If you'd like more detail, please see my [LinkedIn](https://linkedin.com/in/{{ site.author.linkedin }}) page for a more complete profile.
+For a summary of my CV, [click here](/cv). If you'd like more detail, please see my [LinkedIn](https://linkedin.com/in/{{ site.author.linkedin }}) page for a more complete profile.
 
 If you'd like to contact me feel free to send me an email (see the [homepage](/)) or reach out to me on [Twitter](https://twitter.com/{{ site.author.twitter }}).
