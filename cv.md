@@ -21,6 +21,9 @@ For more detailed descriptions, please see my [LinkedIn](https://linkedin.com/in
             {% if position.supervisors %}
             <div id="supervisors"> Supervisors: {{ position.supervisors }} </div>
             {% endif %}
+            {% if position.project %}
+            <div id="supervisors"> Project: <em>{{ position.project }}</em> </div>
+            {% endif %}
         </div>
     </div>
     {% endfor %}

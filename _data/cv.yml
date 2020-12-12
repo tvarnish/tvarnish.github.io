@@ -2,32 +2,36 @@ research:
   - where: Astrophysics Group, Imperial College London
     title: MSci Project
     supervisors: Dr David Clements (Imperial) and Dr Chris Pearson (RAL)
+    project: Far-infrared extra-galactic astronomy with the Herschel Space Observatory.
     when: 2020 - Present
 
-  - where: MAGPIE Lab, Imperial College London
+  - where: MAGPIE Lab, Plasma Physics Group, Imperial College London
     title: UROP Research Student
     supervisors: Prof. Sergey Lebedev, Dr Jack Hare, and Dr Lee Suttle
+    project: Exploration of the time evolution of a plasma gun jet using two-colour interferometry and Thomson scattering. Analysis of simulations and experimental data for pulsed-power magnetised shock experiments.
     when: 2020
 
   - where: Optics and Photonics, Imperial College London
     title: UROP Research Student
     supervisors: Dr Kenny Weir and Prof. Martin McCall
+    project: Development of novel experimental techniques, hardware, and software, to study the reflectance spectra of chiral thin-films and chiral beetle chitin (shells).
     when: 2019
 
   - where: Physics Department, Warwick School
     title: SIA Experimental Research Project
-    supervisors:
+    project: Proof-of-concept electromagnetic accelerator, featuring custom diagnostics and control system.
     when: 2017
 
-  - where: Circuits and Systems Group, Imperial College London
+  - where: Circuits and Systems Group (EEE), Imperial College London
     title: Work Experience Student
     supervisors: Dr Shane Fleming
+    project: Error correction algorithms for ESA's OPS-SAT satellite. Fabrication of a simple proof-of-concept robot. Ground-up 8-bit processor design using Intel Quartus and ModelSim.
     when: 2015
 
 education:
   - name: Imperial College London
     what: MSci Physics
-    when: 2017 - (2021)
+    when: 2017 - 2021
 
   - name: Warwick School
     what: A-Level and GCSE
