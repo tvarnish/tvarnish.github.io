@@ -14,3 +14,7 @@ Outside of physics, I enjoy making things! Be sure to check out my [Twitter](htt
 For a summary of my CV, [click here](/cv). If you'd like more detail, please see my [LinkedIn](https://linkedin.com/in/{{ site.author.linkedin }}) page for a more complete profile.
 
 If you'd like to contact me feel free to send me an email (see the [homepage](/)) or reach out to me on [Twitter](https://twitter.com/{{ site.author.twitter }}).
+
+<div class="endnote">
+I created this website from scratch as a side project. It's built upon GitHub Pages and the Jekyll static-site framework, but all the HTML and CSS you see here was custom-written. All the code can be <a href="https://github.com/{{ site.author.github }}/{{ site.author.github }}.github.io">found on my GitHub</a>, so feel free to take a look if you're interested!
+</div>

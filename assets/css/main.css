@@ -461,3 +461,30 @@ ul {
 em {
     font-style: italic;
 }
+
+/* End note */
+.endnote {
+    color: #666;
+    border-top: 1px #666 solid;
+    padding-top: 1em;
+    margin-top: 4em;
+    font-style: italic;
+    line-height: 1.7em;
+    font-size: 0.85em;
+}
+
+.endnote a {
+    color: #666;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.endnote a:visited {
+    color: #666;
+}
+
+.endnote a:hover {
+    color: #666;
+    text-decoration: underline;
+}
