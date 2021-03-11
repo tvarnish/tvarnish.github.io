@@ -153,6 +153,10 @@ h1 b {
     color: #0077B5;
 }
 
+.fa-orcid:hover {
+    color: #A5CD39;
+}
+
 .fa-envelope:hover {
     color: #003E74;
 }

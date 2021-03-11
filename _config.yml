@@ -10,6 +10,7 @@ author:
   twitter: ThomasVarnish
   github:  tvarnish
   linkedin: thomasvarnish
+  orcid: 0000-0002-8078-214X
   email: 
     user: 71vwt
     domain: lairepmi
@@ -20,6 +21,8 @@ sitepages:
     label: About
   # - url: blog/
   #   label: Blog
+  # - url: research/
+  #   label: Research
   - url: cv/
     label: CV
 

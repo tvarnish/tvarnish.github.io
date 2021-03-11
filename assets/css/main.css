@@ -214,7 +214,8 @@ nav a:hover {
 }
 
 #page-links span {
-    margin-bottom: 0.75rem;
+    /*margin-bottom: 0.75rem;*/
+    margin-bottom: 1rem;
 }
 
 #page-links a {
@@ -310,6 +311,10 @@ ul {
 
 .fa-linkedin:hover {
     color: #0077B5;
+}
+
+.fa-orcid:hover {
+    color: #A5CD39;
 }
 
 .fa-envelope:hover {

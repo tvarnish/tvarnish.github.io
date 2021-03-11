@@ -7,7 +7,7 @@ enable_maths: false
 
 Hi! I'm Thomas, an MSci Physics student studying at [Imperial College London](https://imperial.ac.uk/), interested in plasma physics, laboratory astrophysics, astrophysics (the won't-fit-in-a-lab kind), and instrumentation.
 
-For my MSci research project, I'm using data from [ESA's Herschel Space Observatory](https://www.cosmos.esa.int/web/herschel/home) to study the early history of dusty star-forming galaxies. The *Herschel* mission has long since been decommissioned (2010 - 2014), so we're applying some fancy techniques to *squeeze* out as much science as we can from the legacy observations.
+For my MSci research project, I'm working with Dr. David Clements (Imperial) and Dr. Chris Pearson (RAL) on data from [ESA's Herschel Space Observatory](https://www.cosmos.esa.int/web/herschel/home) to study the evolution of dusty star-forming galaxies. The *Herschel* mission has long since been decommissioned (2009&ndash;2013), so we're applying some fancy statistical techniques to *squeeze* out as much science as we can from the legacy observations.
 
 Outside of physics, I enjoy making things! Be sure to check out my [Twitter](https://twitter.com/{{ site.author.twitter }}) page for updates on this sort of thing.
 

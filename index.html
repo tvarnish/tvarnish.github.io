@@ -66,6 +66,10 @@ enable_maths: false
                     {% if site.author.linkedin %}
                     <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" alt="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                     {% endif %}
+
+                    {% if site.author.orcid %}
+                    <a href="https://orcid.org/{{ site.author.orcid }}" alt="ORCID iD" title="ORCID iD"><i class="fab fa-orcid"></i></i></a>
+                    {% endif %}
                 
                     {% if site.author.email %}
                     <a id="mail" onclick="show_contact()" alt="Show Email Address" title="Show Email Address"><i class="fa fa-envelope" aria-hidden="true"></i></a>
