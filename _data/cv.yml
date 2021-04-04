@@ -29,6 +29,10 @@ research:
     when: 2015
 
 education:
+  - name: Massachusetts Institute of Technology (MIT)
+    what: PhD, Nuclear Science and Engineering (Plasma Physics)
+    when: Incoming, Fall 2021
+
   - name: Imperial College London
     what: MSci Physics
     when: 2017 - 2021
