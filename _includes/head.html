@@ -1,6 +1,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if page.title %}{{ page.title }} | {{site.title}}{% else %}{{ site.title }}{% endif %}</title>
+{% if page.page_title %}
+<title>{{ page.page_title }} | {{ site.title }}</title>
+{% elsif page.title %}
+<title>{{ page.title }} | {{ site.title }}</title>
+{% else %}
+<title>{{ site.title }}</title>
+{% endif %}
 <meta name="description" content="{{ site.description }}">
 <meta name="author" content="Thomas Varnish">
 

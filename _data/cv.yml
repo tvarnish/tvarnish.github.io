@@ -31,7 +31,7 @@ research:
 education:
   - name: Massachusetts Institute of Technology (MIT)
     what: PhD, Nuclear Science and Engineering (Plasma Physics)
-    when: Incoming, Fall 2021
+    when: Fall 2021
 
   - name: Imperial College London
     what: MSci Physics
@@ -40,3 +40,8 @@ education:
   - name: Warwick School
     what: A-Level and GCSE
     when: 2010 - 2017
+
+volunteering:
+  - name: UKSEDS
+    what: Outreach Team Volunteer
+    when: 2020 - Present
