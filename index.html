@@ -51,27 +51,27 @@ enable_maths: false
 
                 <div class="social-links">
                     {% if site.author.youtube %}
-                    <a href="https://www.youtube.com/c/{{ site.author.youtube }}" alt="YouTube" title="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/c/{{ site.author.youtube }}" alt="YouTube" title="YouTube" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
                     {% endif %}
                 
                     {% if site.author.twitter %}
-                    <a href="https://twitter.com/{{ site.author.twitter }}" alt="Twitter" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/{{ site.author.twitter }}" alt="Twitter" title="Twitter" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
                     {% endif %}
                 
                     {% if site.author.github %}
-                    <a href="https://github.com/{{ site.author.github }}" alt="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                    <a href="https://github.com/{{ site.author.github }}" alt="GitHub" title="GitHub" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
                     {% endif %}
                 
                     {% if site.author.linkedin %}
-                    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" alt="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" alt="LinkedIn" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
                     {% endif %}
 
                     {% if site.author.orcid %}
-                    <a href="https://orcid.org/{{ site.author.orcid }}" alt="ORCID iD" title="ORCID iD"><i class="fab fa-orcid"></i></i></a>
+                    <a href="https://orcid.org/{{ site.author.orcid }}" alt="ORCID iD" title="ORCID iD" aria-label="ORCID iD"><i class="fab fa-orcid" aria-hidden="true"></i></i></a>
                     {% endif %}
                 
                     {% if site.author.email %}
-                    <a id="mail" onclick="show_contact()" alt="Show Email Address" title="Show Email Address"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a id="mail" onclick="show_contact()" alt="Show Email Address" title="Show Email Address" aria-label="Email Address: tvarnish@mit.edu"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                     {% endif %}
 
                     <img id="contact" src="assets/contact.jpg" onload="set_alt_attributes(this);" style="visibility: hidden;"/>
