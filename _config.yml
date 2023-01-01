@@ -17,12 +17,12 @@ author:
     tld: ude.
 
 sitepages:
-  - url: about/
-    label: About
-  # - url: blog/
-  #   label: Blog
+  - url: 
+    label: Home
   # - url: research/
   #   label: Research
+    # - url: blog/
+  #   label: Blog
   - url: cv/
     label: CV
 

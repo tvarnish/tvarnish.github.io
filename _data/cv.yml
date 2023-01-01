@@ -1,4 +1,10 @@
 research:
+  - where: PUFFIN Group, Massachusetts Institute of Technology (MIT)
+    title: Graduate Research Assistant
+    supervisors: Prof. Jack Hare
+    project: Pulsed-power driven magnetic reconnection
+    when: 2021 - Present
+
   - where: Astrophysics Group, Imperial College London
     title: MSci Project
     supervisors: Dr David Clements (Imperial) and Dr Chris Pearson (RAL)
@@ -31,7 +37,7 @@ research:
 education:
   - name: Massachusetts Institute of Technology (MIT)
     what: PhD, Nuclear Science and Engineering (Plasma Physics)
-    when: Fall 2021
+    when: 2021 - Present
 
   - name: Imperial College London
     what: MSci Physics
@@ -44,4 +50,4 @@ education:
 volunteering:
   - name: UKSEDS
     what: Outreach Team Volunteer
-    when: 2020 - Present
+    when: 2020 - 2022
