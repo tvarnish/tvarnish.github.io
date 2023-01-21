@@ -20,9 +20,11 @@ sitepages:
   - url: 
     label: Home
   # - url: research/
-  #   label: Research
-    # - url: blog/
-  #   label: Blog
+    # label: Research
+  - url: publications/
+    label: Publications
+  # - url: blog/
+    # label: Blog
   - url: cv/
     label: CV
 

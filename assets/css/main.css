@@ -1,5 +1,17 @@
 @import url("./reset.css");
 
+@font-face {
+    font-family: "Roboto";
+    font-weight: 800;
+    src: url("/assets/fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 200;
+    src: url("/assets/fonts/Roboto-Light.ttf");
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -515,4 +527,22 @@ em {
     width: 90%;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+}
+
+.publications-list i {
+    font-style: italic;
+}
+
+.publications-list b {
+    font-weight: 700;
+}
+
+.publications-list {
+    list-style-type: decimal;
+    list-style-position: outside;
+    margin-left: 2rem;
+}
+
+.publications-list li {
+    padding-left: 1rem;
 }
