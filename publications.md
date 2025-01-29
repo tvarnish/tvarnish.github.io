@@ -6,18 +6,11 @@ enable_maths: false
 cv: false
 ---
 
-<!-- ## Papers
-<ul class="list">
-    {% for paper in site.data.pubs.papers %}
-    <li>{{ paper.author }}, <i>{{ paper.title }}</i>, {{ paper.journal }}, ({{ paper.year }}), {{ paper.doi }}</li>
-    {% endfor %}
-</ul> -->
-
-## Posters
+## Papers
 <ol class="publications-list" reversed>
-    {% for poster in site.data.pubs.posters %}
+    {% for paper in site.data.pubs.papers %}
         <li>
-        {% assign authors = poster.authors | split: "," %}
+        {% assign authors = paper.authors | split: "," %}
 
         {% for auth in authors %}
             {% if forloop.last and authors.size > 1 %}
@@ -30,7 +23,7 @@ cv: false
             {% endif %}
         {% endfor %}
 
-        <i>"{{ poster.title }}"</i>, {{ poster.conference }} ({{ poster.where }}, {{ poster.when }}).
+        <b><i>"{{ paper.title }}"</i></b>, {{ paper.journal }} ({{ paper.year }}){% if paper.doi %}, <a href="{{ paper.url }}">doi:{{ paper.doi }}</a>{% endif %}.
         </li>
     {% endfor %}
 </ol>

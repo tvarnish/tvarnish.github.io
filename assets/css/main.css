@@ -534,4 +534,10 @@ em {
 
 .publications-list li {
     padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.publications-list li a {
+    color: #E67E22;
+    font-weight: 700;
 }

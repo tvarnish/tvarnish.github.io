@@ -48,6 +48,14 @@ education:
     when: 2010 - 2017
 
 volunteering:
+  - name: APS Division of Plasma Physics Pride (LGBTQ+) Committee
+    what: Member-at-Large
+    when: 2025 - Present
+
+  - name: MIT PSFC LGBTQ+ Affinity Group
+    what: Co-Lead/Co-Founder
+    when: 2023 - Present
+    
   - name: UKSEDS
     what: Outreach Team Volunteer
     when: 2020 - 2022
