@@ -518,6 +518,16 @@ em {
     padding-bottom: 0.75rem;
 }
 
+.post-image p {
+    color: #666;
+    font-size: 15px;
+    font-style: italic;
+    max-width: 80%;
+    min-width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
 .publications-list i {
     font-style: italic;
 }
