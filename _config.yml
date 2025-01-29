@@ -7,7 +7,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.thomasvarnish.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 
 author:
-  twitter: ThomasVarnish
   github:  tvarnish
   linkedin: thomasvarnish
   orcid: 0000-0002-8078-214X
