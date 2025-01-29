@@ -25,6 +25,9 @@ sitepages:
     label: Publications
   # - url: blog/
     # label: Blog
+  - url: https://photo.thomasvarnish.co.uk/
+    label: Photography
+    external: true
   - url: cv/
     label: CV
 

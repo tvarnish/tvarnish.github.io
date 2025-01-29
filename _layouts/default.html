@@ -32,7 +32,11 @@
                 </p>
                 <p id="page-links">
                     {% for page in site.sitepages %}
+                        {% if page.external %}
+                        <span><a href="{{ page.url }}">{{ page.label }}</a></span>
+                        {% else %}
                         <span><a href="/{{ page.url }}">{{ page.label }}</a></span>
+                        {% endif %}
                     {% endfor %}
                 </p>
                 <div class="social-links">
