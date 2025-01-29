@@ -46,7 +46,7 @@ html, body {
     text-align: left;
     /* color: #666; */
     font-family: "Roboto", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     color: black;
 
@@ -79,8 +79,8 @@ html, body {
 p {
     /* font-family: 'Source Sans Pro', sans-serif; */
     /* font-weight: 400; */
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     /* font-size: 17px; */
     text-align: left;
     margin-bottom: 1.5rem;
@@ -99,7 +99,7 @@ p span a {
     /* font-style: italic; */
     /* color: #006EAF; */
     color: #E67E22;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 p span a:hover {
@@ -113,14 +113,14 @@ p span a:visited {
 }
 
 h1 {
-    font-family: "Roboto";
+    font-family: "Poppins";
     font-weight: 400;
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
 h1 b {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 /* SOCIAL LINKS */
@@ -406,8 +406,8 @@ h1 b {
     /* font-weight: 400; */
     /* font-size: 17px; */
 
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
     font-size: 18px;
     text-align: left;
 
@@ -436,7 +436,7 @@ h1 b {
     #not-found-heading {
         margin-bottom: 2em;
         font-size: 3em;
-        font-weight: 800;
+        font-weight: 700;
     }
 }
 

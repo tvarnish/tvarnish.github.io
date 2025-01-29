@@ -1,17 +1,5 @@
 @import url("./reset.css");
 
-@font-face {
-    font-family: "Roboto";
-    font-weight: 800;
-    src: url("/assets/fonts/Roboto-Black.ttf");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-weight: 200;
-    src: url("/assets/fonts/Roboto-Light.ttf");
-}
-
 html, body {
     height: 100%;
     margin: 0;
@@ -22,20 +10,21 @@ body {
     /* font-weight: 400; */
     /* font-size: 17px; */
 
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-size: 18px;
     
     text-align: left;
     
     /* color: rgba(0, 0, 0, 0.9); */
     /* color: #494e52; */
-    color: black;
+    /* color: black; */
+    color: #282828;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto";
-    font-weight: 800;
+    font-family: "Poppins";
+    font-weight: 700;
     color: rgba(0, 0, 0, 0.9);
 }
 
@@ -124,8 +113,8 @@ nav {
 nav a {
     text-decoration: none;
     color: #666;
-    font-weight: 300;
-    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
 }
 
 nav a:visited {
@@ -248,9 +237,9 @@ nav a:hover {
 }
 
 #main-tagline {
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .content {
@@ -266,7 +255,7 @@ nav a:hover {
 
 .content p a {
     color: #E67E22;
-    font-weight: 800;
+    font-weight: 700;
     text-decoration: none;
     /* TODO: Create a more consistent colour scheme! */
 }
@@ -409,7 +398,7 @@ ul {
     }
 
     .footer-text-container #main-tagline {
-        font-weight: 800;
+        font-weight: 700;
     }
 
     .footer-text-container .social-links {
@@ -494,7 +483,7 @@ em {
 
 .endnote a {
     color: #666;
-    font-weight: 800;
+    font-weight: 700;
     font-style: normal;
     text-decoration: none;
 }
