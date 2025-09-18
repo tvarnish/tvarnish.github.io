@@ -40,3 +40,8 @@
     font-size: 15px;
     color: #666;
 }
+
+hr {
+    color: #666;
+    margin-top: 3rem;
+}

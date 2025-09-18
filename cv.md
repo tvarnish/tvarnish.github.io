@@ -7,7 +7,9 @@ enable_maths: false
 cv: true
 ---
 
-For more detailed descriptions, please see my [LinkedIn](https://linkedin.com/in/{{ site.author.linkedin }}) profile.
+For a more complete CV, please see my [LinkedIn](https://linkedin.com/in/{{ site.author.linkedin }}) profile.
+
+***
 
 ## Research Experience
 <ul class="list">
@@ -30,6 +32,8 @@ For more detailed descriptions, please see my [LinkedIn](https://linkedin.com/in
     {% endfor %}
 </ul>
 
+***
+
 ## Education
 <ul class="list">
     {% for school in site.data.cv.education %}
@@ -44,6 +48,8 @@ For more detailed descriptions, please see my [LinkedIn](https://linkedin.com/in
     </div>
     {% endfor %}
 </ul>
+
+***
 
 ## Volunteering
 <ul class="list">
