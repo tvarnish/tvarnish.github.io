@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome
+title: 
 permalink: /
 enable_maths: false
 ---
