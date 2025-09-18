@@ -1,6 +1,7 @@
 ---
 layout: default
-title: 
+title: Welcome
+page_title: Thomas Varnish
 permalink: /
 enable_maths: false
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Curriculum Vitae
-page_title: CV
+page_title: CV | Thomas Varnish
 permalink: /cv/
 enable_maths: false
 cv: true
