@@ -3,20 +3,26 @@ papers:
    title: Quadrupolar Density Structures in Driven Magnetic Reconnection Experiments with a Guide Field
    journal: Physics of Plasmas
    year: 2025
-   doi: 10.48550/arXiv.2412.02556
-   link: https://doi.org/10.48550/arXiv.2412.02556
+   doi: 10.1063/5.0251581
+   link: https://doi.org/10.1063/5.0251581
+ - authors: T. W. O. Varnish, X. Wu, C. Pearson, D. L .Clements, A. Parmar
+   title: "The Herschel-SPIRE Dark Field II: A P(D) Fluctuation Analysis of the Deepest Herschel Image of the Submillimetre Universe"
+   journal: MNRAS
+   year: 2025
+   doi: 10.1093/mnras/staf318
+   link: https://doi.org/10.1093/mnras/staf318
  - authors: C. Pearson, T. W. O. Varnish, X. Wu, D. L .Clements, A. Parmar, H. Davidge, M. Pearson
    title: "The Herschel-SPIRE Dark Field I: The Deepest Herschel Image of the Submillimetre Universe"
    journal: MNRAS
    year: 2025
-   doi: 
-   link:
+   doi: 10.1093/mnras/staf335
+   link: https://doi.org/10.1093/mnras/staf335
  - authors: R. Datta, J. Angel, J. B. Greenly, S. N. Bland, J. P. Chittenden, E. S. Lavine, W. M. Potter, D. Robinson, T. W. O. Varnish, E. Wong, A. Hammer, B. R. Krusse, J. D. Hare
    title: Plasma Flows During the Ablation Stage Of An Over-Massed Pulsed-Power-Driven Exploding Planar Wire Array
    journal: Physics of Plasmas
    year: 2023
    doi: 
-   link:
+   link: 
  - authors: S. Merlini, J. D. Hare, G. C. Burdiak, J. W. D. Halliday, A. Ciardi, J. P. Chittenden, T. Clayson, A. J. Crilly, S. J. Eardly, K. E. Marrow, D. R. Russell, R. A. Smith, N. Stuart, L. G. Suttle, E. R. Tubman, V. Valenzuela-Villasca, T. W. O. Varnish, S. V. Lebedev
    title: Radiative Cooling Effects on Reverse Shocks Formed By Magnetised Supersonic Plasma Flows
    journal: Physics of Plasmas
