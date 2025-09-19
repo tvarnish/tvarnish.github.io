@@ -16,9 +16,17 @@ enable_maths: false
 
 Hi! I'm Thomas, a fourth-year PhD student in the Department of Nuclear Science and Engineering ([NSE](http://web.mit.edu/nse/)) at MIT. My research---at the [PSFC](https://www.psfc.mit.edu/), under the supervision of [Prof. Jack Hare](https://www.jackdhare.net/)---revolves around astrophysically-relevant fundamental plasma physics. Right now, I'm studying experimental pulsed-power driven magnetic reconnection in the presence of a guide field, on machines such as [PUFFIN](https://puffin.ece.cornell.edu/), [MAIZE](https://plasmabay.engin.umich.edu/research/michigan-accelerator-for-inductive-z-pinch-experiments-maize/), and [COBRA](https://www.lps.cornell.edu/). Generally speaking, my research interests lie at the intersection of plasma physics, laboratory astrophysics, astrophysics (the won't-fit-in-a-lab kind), and instrumentation.
 
-<div class="post-image">
+<!-- <div class="post-image">
     <img src="assets/maize.jpg" alt="Brightly-coloured plasma is shown glowing outwards from two small tilted cylindrical arrays of thin carbon wires."/>
     <p> A long-exposure image taken of my tilted exploding wire array experiments on the MAIZE facility at the University of Michigan. </p>
+</div> -->
+
+<div class="post-image fade-between">
+    <div class="fade-container">        
+        <img id="fade-bottom" src="assets/cobra_shot.jpg">
+        <img id="fade-top" src="assets/cobra_preshot.jpg">
+    </div>
+    <p> Before/after long-exposure images taken of my tilted exploding wire array experiments on the COBRA facility at Cornell University. In the second picture, the image is entirely lit by glowing plasma, over ~100-billionths of a second! </p>
 </div>
 
 In 2021, I completed my undergraduate MSci degree in Physics at [Imperial College London](https://imperial.ac.uk/). For my final-year MSci research project, I worked alongside Dr. David Clements (Imperial), Dr. Chris Pearson (RAL), and Xinni Wu (Imperial) on data from [ESA's Herschel Space Observatory](https://www.cosmos.esa.int/web/herschel/home) to study the evolution of dusty star-forming galaxies. The *Herschel* mission has long since been decommissioned (2009&ndash;2013), so we applied some fancy statistical techniques to *squeeze* out as much science as possible from the legacy observations. Our first paper from this research has just been accepted for publication in the *Monthly Notices of the Royal Astronomical Society* (MNRAS) Journal!

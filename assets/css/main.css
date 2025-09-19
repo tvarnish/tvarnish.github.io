@@ -583,3 +583,52 @@ em {
     font-weight: 700;
     font-style: italic;
 }
+
+
+/* Fade-in image */
+
+.fade-between {
+    margin:auto;
+    margin-bottom: 1rem;
+}
+
+.fade-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#fade-top {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+#fade-bottom {
+    position: absolute;
+    top: 0px;
+    left: 5%;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
