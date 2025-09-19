@@ -22,6 +22,8 @@ sitepages:
     # label: Research
   - url: contact/
     label: Contact
+  - url: media/
+    label: Media
   - url: publications/
     label: Publications
   # - url: blog/
