@@ -1,15 +1,15 @@
 research:
   - where: PUFFIN Group, Massachusetts Institute of Technology (MIT)
     title: Graduate Research Assistant
-    supervisors: Prof. Jack Hare
-    project: Developing experimental platforms for pulsed-power driven magnetic reconnection (within an externally-generated field), for guide-field reconnection experiments.
+    supervisors: Prof. Jack Hare, Prof. Nuno Loureiro
+    project: Developing novel experimental platforms for pulsed-power-driven guide-field reconnection.
     when: 2021 - Present
 
   - where: Astrophysics Group, Imperial College London
-    title: MSci Project
+    title: Academic Visitor
     supervisors: Dr David Clements (Imperial) and Dr Chris Pearson (RAL)
     project: Far-infrared extra-galactic astronomy with the Herschel Space Observatory.
-    when: 2020 - Present
+    when: 2020 - 2025
 
   - where: MAGPIE Lab, Plasma Physics Group, Imperial College London
     title: UROP Research Student
@@ -48,7 +48,7 @@ education:
     when: 2010 - 2017
 
 volunteering:
-  - name: APS Division of Plasma Physics Pride (LGBTQ+) Committee
+  - name: APS DPP Plasma Pride LGBTQ+ Committee
     what: Member-at-Large
     when: 2025 - Present
 
@@ -57,5 +57,5 @@ volunteering:
     when: 2023 - Present
     
   - name: UKSEDS
-    what: Outreach Team Volunteer
+    what: Project Lead and Outreach Team Volunteer
     when: 2020 - 2022

@@ -23,7 +23,7 @@ cv: false
             {% endif %}
         {% endfor %}
 
-        <b><i>"{{ paper.title }}"</i></b>, {{ paper.journal }} ({{ paper.year }}){% if paper.doi %}, <a href="{{ paper.url }}">doi:{{ paper.doi }}</a>{% endif %}.
+        <b><i>"{{ paper.title }}"</i></b>, {{ paper.journal }} ({{ paper.year }}){% if paper.doi %}, <a href="{{ paper.link }}">doi:{{ paper.doi }}</a>{% endif %}.
         </li>
     {% endfor %}
 </ol>
