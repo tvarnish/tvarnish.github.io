@@ -17,9 +17,11 @@ author:
 
 sitepages:
   - url: 
-    label: Home
+    label: About
   # - url: research/
     # label: Research
+  - url: contact/
+    label: Contact
   - url: publications/
     label: Publications
   # - url: blog/

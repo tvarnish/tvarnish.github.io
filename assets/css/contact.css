@@ -1,0 +1,57 @@
+.contact-box {
+    width: 100%;
+    margin: auto;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-box a {
+    text-decoration: none;
+}
+
+.contact-box-container {
+    width: 90%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    font-style: italic;
+    color: white;
+}
+
+.contact-box-container p {
+    padding: 0;
+    margin: 0;
+}
+
+.contact-box-container b {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.linkedin {
+    background-color: #0077B5;
+}
+
+.github {
+    background-color: #000;
+}
+
+.orcid {
+    background-color: #A5CD39;
+}
+
+.email {
+    background-color: #E67E22;
+}
+
+.contact:hover {
+    color: white;
+}
+
+.contact {
+    font-size: 1.5rem;
+}
+
+.contact-box-container span {
+    vertical-align: middle;
+}
