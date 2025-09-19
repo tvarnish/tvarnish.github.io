@@ -55,7 +55,15 @@ You can find my photography portfolio here: [photo.thomasvarnish.co.uk](https://
 For a summary of my CV, [click here](/cv). 
 If you'd like more detail, please see my [LinkedIn](https://linkedin.com/in/{{ site.author.linkedin }}) page for a more complete profile.
 
-If you'd like to contact me, feel free to [send me an email](mailto:tvarnish@mit.edu).
+<!-- If you'd like to contact me, feel free to [send me an email](mailto:tvarnish@mit.edu). -->
+
+<div class="home-banner">
+    <a href="mailto:tvarnish@mit.edu">
+    <div class="home-banner-container">
+        <p> If you'd like to contact me, please feel free to send me an email: tvarnish@mit.edu<br>(or click this box). </p>
+    </div>
+    </a>
+</div>
 
 <div class="endnote">
 I created this website from scratch as a side project. It's built upon GitHub Pages and the Jekyll static-site framework, but all the HTML and CSS you see here was custom-written. All the code can be <a href="https://github.com/{{ site.author.github }}/{{ site.author.github }}.github.io">found on my GitHub</a>, so feel free to take a look if you're interested!
