@@ -272,6 +272,10 @@ ul {
     margin-bottom: 1rem;
 }
 
+i {
+    font-style: italic;
+}
+
 .profile-picture {
     width: 60%;
     height: auto;
