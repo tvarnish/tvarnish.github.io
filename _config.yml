@@ -1,8 +1,8 @@
 # JEKYLL SITE CONFIGURATION FILE
 title: Thomas Varnish
 description: >- # this means to ignore newlines until "baseurl:" 
-  Aspiring physicist. Space enthusiast. Occasional maker of things. 
-  Studying MSci Physics at Imperial College London.
+  PhD Student. Engineer. Artist. Occasional maker of things. 
+  Studying Experimental Plasma Physics at MIT.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.thomasvarnish.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 
