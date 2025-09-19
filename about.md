@@ -6,6 +6,14 @@ permalink: /
 enable_maths: false
 ---
 
+<div class="home-banner">
+    <a href="mailto:tvarnish@mit.edu?subject=Job Opportunity&body=Hi Thomas,<br><br>I'm <insert name here> and let me tell you about this amazing job opportunity I think you'd be perfect for! :)">
+    <div class="home-banner-container">
+        <p> I'm currently looking for <b>internship and full-time opportunities</b>, particularly those which combine my broad range of <b>creative and technical skills.</b> </p>
+    </div>
+    </a>
+</div>
+
 Hi! I'm Thomas, a fourth-year PhD student in the Department of Nuclear Science and Engineering ([NSE](http://web.mit.edu/nse/)) at MIT. My research---at the [PSFC](https://www.psfc.mit.edu/), under the supervision of [Prof. Jack Hare](https://www.jackdhare.net/)---revolves around astrophysically-relevant fundamental plasma physics. Right now, I'm studying experimental pulsed-power driven magnetic reconnection in the presence of a guide field, on machines such as [PUFFIN](https://puffin.ece.cornell.edu/), [MAIZE](https://plasmabay.engin.umich.edu/research/michigan-accelerator-for-inductive-z-pinch-experiments-maize/), and [COBRA](https://www.lps.cornell.edu/). Generally speaking, my research interests lie at the intersection of plasma physics, laboratory astrophysics, astrophysics (the won't-fit-in-a-lab kind), and instrumentation.
 
 <div class="post-image">

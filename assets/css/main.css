@@ -551,3 +551,35 @@ em {
     color: #E67E22;
     font-weight: 700;
 }
+
+/* Homepage banner */
+.home-banner {
+    width: 90%;
+    margin: auto;
+    background-color: #E67E22;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.home-banner a {
+    text-decoration: none;
+}
+
+.home-banner-container {
+    width: 90%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    font-style: italic;
+    color: white;
+}
+
+.home-banner-container p {
+    padding: 0;
+    margin: 0;
+}
+
+.home-banner-container b {
+    font-weight: 700;
+    font-style: italic;
+}
