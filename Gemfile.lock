@@ -39,7 +39,6 @@ GEM
     ethon (0.15.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
     execjs (2.10.0)
     faraday (2.13.4)
       faraday-net_http (>= 2.0, < 3.5)
@@ -218,7 +217,7 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.14.1)
+    json (2.15.2.1)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -229,7 +228,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
     mercenary (0.3.6)
-    mini_portile2 (2.8.9)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -237,9 +235,6 @@ GEM
     minitest (5.25.5)
     net-http (0.6.0)
       uri
-    nokogiri (1.18.10)
-      mini_portile2 (~> 2.8.2)
-      racc (~> 1.4)
     nokogiri (1.18.10-x64-mingw-ucrt)
       racc (~> 1.4)
     nokogiri (1.18.10-x86_64-linux-gnu)
@@ -276,19 +271,16 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     uri (1.0.3)
-    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
   x64-mingw-ucrt
-  x64-mingw32
   x86_64-linux
 
 DEPENDENCIES
   github-pages
   kramdown (>= 2.3.1)
   nokogiri (>= 1.11.4)
-  wdm (>= 0.1.0)
   webrick (~> 1.9)
 
 BUNDLED WITH
