@@ -9,7 +9,7 @@ enable_maths: false
 <div class="home-banner">
     <a href="mailto:tvarnish@mit.edu?subject=Job Opportunity&body=Hi Thomas,<br><br>I'm <insert name here> and let me tell you about this amazing job opportunity I think you'd be perfect for! :)">
     <div class="home-banner-container">
-        <p> I'm currently looking for <b>internship and full-time opportunities</b>, particularly those which combine my broad range of <b>creative and technical skills.</b> </p>
+        <p> I'm currently looking for <b>full-time opportunities</b> following my anticipated graduationg in <b>May 2027</b>, particularly those which combine my broad range of <b>creative and technical skills.</b> Please don't hesistate to reach out!</p>
     </div>
     </a>
 </div>
@@ -34,7 +34,7 @@ If I can get my hands dirty in the lab, and design some brand-new hardware to do
     <p> Before/after long-exposure images taken of my tilted exploding wire array experiments on the COBRA facility at Cornell University. In the second picture, the image is entirely lit by glowing plasma, over ~100-billionths of a second! </p>
 </div>
 
-I'm currently anticipating graduating in Fall 2026, with a PhD in Nuclear Science and Engineering, and a minor in Photography and Related Media.
+I'm currently planning on defending my thesis and graduating in April/May 2027, with a PhD in Nuclear Science and Engineering, and a minor in Photography, Related Media, and Lighting Design for Theatre.
 A fast learner and skilled at hands-on problem-solving/making, with optics and pulsed-power engineering knowledge, I'm looking for exciting opportunities to combine my technical and creative skills. 
 Please reach out if you are interested in talking!
 
