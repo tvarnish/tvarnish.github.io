@@ -9,7 +9,7 @@ enable_maths: false
 <div class="home-banner">
     <a href="mailto:tvarnish@mit.edu?subject=Job Opportunity&body=Hi Thomas,<br><br>I'm <insert name here> and let me tell you about this amazing job opportunity I think you'd be perfect for! :)">
     <div class="home-banner-container">
-        <p> I'm currently looking for <b>full-time opportunities</b> following my anticipated graduationg in <b>May 2027</b>, particularly those which combine my broad range of <b>creative and technical skills.</b> Please don't hesistate to reach out!</p>
+        <p> I'm currently looking for <b>full-time opportunities</b> following my anticipated graduation in <b>May 2027</b>, particularly those which combine my broad range of <b>creative and technical skills.</b> Please don't hesistate to reach out!</p>
     </div>
     </a>
 </div>
